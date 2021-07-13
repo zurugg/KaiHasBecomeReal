@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+li, a, button{
+
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    max-height: 72px;
+}
+
+.logo:hover{
+    transform: scale(200%);
+    transition: all 0.3s ease 0s;
+}
+
+
+.list{
+
+        list-style: none;
+}
+
+.list{
+    
+    display:flex;
+    padding: 0px 30px;
+
+}
+
+a{
+
+    margin: 12px;
+
+}
+
+.list li a {
+    transition: all 0.3s ease 0s;
+}
+
+.list li a:hover {
+    color: rgb(255, 208, 0);
+}
+
+button {
+    padding: 12px 18px;
+    background-color: rgb(214, 139, 0);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(255, 166, 0);
+
+
+}
+
+.bg{
+    
+    position: absolute;
+    z-index: 0;
+    opacity: 50%;
+
+}
+@media (min-aspect-ratio: 18/9) {
+
+.bg {
+    width:100%;
+    height: auto;
+}
+
+}
+
+@media (min-aspect-ratio: 18/9) {
+
+    .bg {
+        width: auto;
+        height: 100%;
+    }
+    
+    }
+
+    .texto{
+
+        position: absolute;
+    width: 896px;
+    height: 168px;
+    left: 64px;
+    top: 156px;
+    
+    background: none;
+    font-family: 'Oswald', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    
+    color: #FFFFFF;
+    
+
+  }
+
+  .texto2{
+
+    position: absolute;
+width: 896px;
+height: 168px;
+left: 950px;
+top: 756px;
+
+background: none;
+font-family: 'Oswald', sans-serif ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 84px;
+
+color: #FFFFFF;
+
+  }
